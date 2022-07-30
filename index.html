@@ -13,37 +13,45 @@
   </head>
   <body>
 <!----- The Header Section --------->
-        <header class="h-auto p-5">
-        <nav class="navbar navbar-expand-lg bg-light mx-2 my-3 px-5 sticky-top ">
+        <header class=" px-5">
+          <nav class="navbar mx-5 px-2 navbar-expand-lg navbar-expand-md bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand fw-bold fs-1 " href="#">ACTUEDU</a>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5 fs-5">
+              <a class="navbar-brand border p-2 rounded border-info" href="#" ><strong>ACTUEDU</strong></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">courses</a>
+                    <a class="nav-link active " href="#">Courses</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">deals</a>
+                    <a class="nav-link active " href="#">Deals</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Success</a>
+                    <a class="nav-link active " href="#">Success</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link active " href="#">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Register</a>
+                    <a class="nav-link active " href="#"><strong>Register</strong></a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link active " href="#">Help</a>
+                  </li>
+                  
                 </ul>
-                <div>
-                  <button class="btn btn-outline-info me-5 fw-bold" type="submit">Register</button>
-                </div>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn  bg-info text-white  " type="submit">Search</button>
+                </form>
               </div>
             </div>
-        </nav> 
+          </nav>
       <!--------- Slider Section --------->
         <Section class="container rounded">
             <div id="carouselExampleCaptions" class="carousel slide "   data-bs-ride="carousel">
@@ -106,10 +114,13 @@
 <!-------- The Main Section --------------->
 <main>
       <!---------- course section --------------->
-      <section id="course-section">
-          <div class="text-center">
+      <section id="course-section"> 
+          <div class=" container text-center my-5">
             <h1>Discover our popular courses:</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ducimus?</p>
+            <p>
+              Here is our all courses including - Full Stack Development, Graphics Design, Video Editing Etc.
+              Checkout and enroll our course to learn anything with fun.
+            </p>
           </div>
 
           <div class="container">
@@ -129,8 +140,8 @@
             
               <img src="images/course/course-2.png" class="img-fluid ">
               <div class=" m-3">
-                <h4>Courses Title</h4>
-                <p>Course Details</p>
+                <h4>UI/UX Design</h4>
+                <p>Complete UI/UX Design Course from basic to advace with realworld project. Let's start and have a fun.</p>
                 <h6 class="text-info">price:$20</h6>
           
             </div>  
@@ -140,8 +151,8 @@
             
               <img src="images/course/course-3.png" class="img-fluid ">
               <div class=" m-3">
-                <h4>Courses Title</h4>
-                <p>Course Details</p>
+                <h4>Video Editing</h4>
+                <p>You know! In this decade we all should know video editing. This is the world of Video. We mush learn how edit a video. Therefore Let's learn the skill.</p>
                 <h6 class="text-info">price:$20</h6>
           
             </div>  
@@ -151,8 +162,9 @@
             
               <img src="images/course/course-4.png" class="img-fluid ">
               <div class=" m-3">
-                <h4>Courses Title</h4>
-                <p>Course Details</p>
+                <h4>Social Midea Management</h4>
+                <p>This is one of the trending skill now a days. Every celebraty needs a Social Midea Manager. So this is an opportunity  that you can grab up. Just enroll the course and keep learning for a better future by the grace of almighty Allah.
+                </p>
                 <h6 class="text-info">price:$20</h6>
            
             </div>  
@@ -162,8 +174,10 @@
             
               <img src="images/course/course-6.png" class="img-fluid ">
               <div class=" m-3">
-                <h4>Courses Title</h4>
-                <p>Course Details</p>
+                <h4>Excel</h4>
+                <p>One of the best Skill for every professionals.
+                  It does't matter who you are and who you want to be? You must learn MS Excel. Just learn Now.
+                </p>
                 <h6 class="text-info">price:$20</h6>
            
             </div>  
@@ -173,8 +187,11 @@
             
               <img src="images/course/course-6.png" class="img-fluid ">
               <div class=" m-3">
-                <h4>Courses Title</h4>
-                <p>Course Details</p>
+                <h4>Motion Graphics</h4>
+                <p>
+                  This is a highly top rated skill. There are lots of opportunity for those who know motion graphics.
+                  If you want to learn Complete Motion Graphics, then This course is for you.
+                </p>
                 <h6 class="text-info">price:$20</h6>
           
             </div>  
@@ -232,7 +249,8 @@
             <p>Then please click the -Register Now- button</p>
           </div>
           <div>
-            <button class="bg-white border border-1 rounded text-info fs-5 fw-bolder me-5 me-sm-5">Register Now</button>
+            <button class="bg-white border border-1 rounded text-info fs-5 fw-bolder me-5 me-sm-5 p-3 ">
+              Register No</button>
           </div>
         </div>
       </section>
@@ -510,11 +528,11 @@
               content of a page when looking at its layout...</p>
           </div>
           <!-- separation -->
-          <div class="container w-75 accordion" id="accordionPanelsStayOpenExample">
+          <div class="container my-5 w-75 accordion" id="accordionPanelsStayOpenExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                  What is the defference between css grid and flexbox.
+                  What is the defference between css grid and flexbox?
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
@@ -538,7 +556,7 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                  Accordion Item #3
+                  What is css block model?
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
@@ -550,7 +568,7 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                  Accordion Item #3
+                  What is a semantic tag?
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
@@ -562,7 +580,7 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                  Accordion Item #3
+                  What is the defference between framework and  library?
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
@@ -576,8 +594,8 @@
 
       <!--------------- Sponsors Section -------------->
 
-      <section>
-          <div class="container m-5 p-5">
+      <section >
+          <div class="container d-none d-lg-block d-sm-none d-md-none d-xl-block d-xxl-block m-5 p-5">
           <h1 class="text-center m-5">Trusted by over 800+ companies </h1>
           <div class="container-fluid w-50 d-flex justify-content-around ">
             <img src="images/company/company-1.png" alt="" class="d-block m-3 w-25 img-fluid">
@@ -596,7 +614,7 @@
 
 
 
-<!----------- The Footer Section --------------->
+        <!----------- The Footer Section --------------->
 
   <footer class="p-5 text-center text-white bg-dark ">
 
